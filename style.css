@@ -1,0 +1,49 @@
+body {
+  margin: left 2rem, right 2rem;
+}
+
+header {
+  display: flex;
+  background-color: gray;
+  padding: 8px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  padding: 8px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+main img {
+  padding: 30px;
+}
+
+.scrollable-container {
+  display: flex;
+  justify-content: center;
+  height: 300px; /* Set the desired height */
+  width: 275px;
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Optional: Add padding for content */
+}
+h2 {
+  display: flex;
+  align-items: flex-end;
+  padding: 40px, 40px;
+}
